@@ -3,7 +3,7 @@
 
 ## Sujet
 
-Retrouver notre site informatif en cliquant [ici]](https://timothesandt.github.io/SAE_Fortiche_Production/)
+Retrouver notre site informatif en cliquant [ici](https://timothesandt.github.io/SAE_Fortiche_Production/)
 BlaBlaBla
 
 
@@ -25,10 +25,10 @@ Référent Timothé Sandt - *timothe.sandt@edu.univ-fcomte.fr*
 
 Page [d'accueil]() - Rémi aidé par le reste de groupe
 
-Page []() - Rokhaya
-Page []() - Rémi
-Page []() - Timothé
-Page []() - Maxime
+Page [histoire](https://timothesandt.github.io/SAE_Fortiche_Production/histoire.html) - Rokhaya
+Page [page](https://timothesandt.github.io/SAE_Fortiche_Production/) - Rémi
+Page [projet](https://timothesandt.github.io/SAE_Fortiche_Production/projet.html) - Timothé
+Page [page](https://timothesandt.github.io/SAE_Fortiche_Production/) - Maxime
 
 
 ### Répartition du travail - Rapport
