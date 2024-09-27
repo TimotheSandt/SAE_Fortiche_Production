@@ -1,0 +1,56 @@
+:root {
+    --font-size-project-name: 64px;
+    --image-size-projet: 500px;
+}
+
+
+.type-projet-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 50px;
+}
+
+.projet-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.projet-container h3 {
+    font-size: var(--font-size-project-name);
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.projet-container img {
+    align-items: center;
+
+    height: var(--image-size-projet);
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+#arcane {
+    transform: translateX(-100px); 
+    align-items: flex-start;
+}
+
+#arcane h3 {
+    transform: translateY(calc(var(--image-size-projet) / 2 + (var(--font-size-project-name) * 3 )/ 2));
+}
+
+
+
+#rocket {
+    transform: translate(200px, -50px);
+    align-items: flex-end;
+}
+
+#rocket h3 {
+    transform: translateY(calc(var(--font-size-project-name) * 2.5 ));
+}
