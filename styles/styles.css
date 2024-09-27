@@ -103,3 +103,9 @@ header {
         gap: 0.5rem;
     }
 }
+
+
+footer {
+    align-items: center;
+    background-color: #4c1d95;
+}
