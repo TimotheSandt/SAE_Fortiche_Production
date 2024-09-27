@@ -1,0 +1,29 @@
+.type-projet-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.projet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.projet-container img {
+    min-width: 300px;
+    max-width: 90%;
+    height: auto;
+}
+
+
+#arcane {
+    transform: translateX(-100px); 
+}
+
+
+
+#rocket {
+    transform: translate(200px, -50px);
+}
