@@ -53,4 +53,41 @@
 
 #rocket h3 {
     transform: translateY(calc(var(--font-size-project-name) * 2.5 ));
+    color: skyblue;
+}
+
+#enemy {
+    transform: translateX(-100px);
+    align-items: flex-start;
+}
+
+
+#KDA {
+    transform: translate(200px, -50px);
+    align-items: flex-end;
+}
+
+
+#KDA h3 {
+    transform: translateY(calc(var(--image-size-projet) + var(--font-size-project-name) / 2));
+}
+
+#rise {
+    transform: translateX(-200px);
+    align-items: flex-end;
+}
+
+#rise h3 {
+    transform: translate(-100%, calc(var(--font-size-project-name) * 3.5 ));
+}
+
+
+#freak {
+    align-items: flex-start;
+}
+
+#freak h3 {
+    transform: translateY(calc(var(--font-size-project-name) * 3.5));
+    width: 50%;
+    color: rgb(250, 117, 56);
 }
