@@ -1,0 +1,48 @@
+h1{
+   font-size:26px;
+   font-style:italic;
+   margin-left: 50%;
+   color: rgb(2, 33, 61);
+   text-decoration: black;
+   text-align: center;
+   float: center ;
+
+
+}
+
+#photo{
+   background-origin: padding-box;
+   border: 20px solid rgb(1, 1, 60);
+   float: left;
+}
+
+#photo2{
+   background-origin: padding-box;
+   border: 20px solid rgb(1, 1, 60);
+   float: right;
+   margin-left: 40%;
+}
+
+#first {
+   float: left;
+   font-size: 30px;
+   font-style:italic;
+   width: 50%;
+   top: 20 px;
+   right: 10 px;
+
+}
+
+.too {
+   display:flex;
+}
+
+.too2 {
+   display:flex;
+   float: right;
+}
+body {
+
+   background-color: rgb(142, 206, 206);
+}
+
