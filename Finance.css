@@ -16,11 +16,23 @@ h1{
 }
 
 h2{
-    margin: 5% 0 15px 15%;
+    text-align: left;
+}
+
+.intro{
+    background: linear-gradient(-45deg, #22114c, #250572);
+    margin: 0 15% 0 15%;
+    padding: 0 15px 0 15px;
+}
+
+.tab{
+    background: linear-gradient(-45deg, #120335, #2c0783);
+    margin: 0 15% 0 15%;
+    padding: 0 15px 0 15px;
 }
 
 .texte{
-    margin: 0 17% 0 17%;
+    margin: 0 1% 0 1%;
 }
 
 @keyframes gradient{
@@ -47,10 +59,10 @@ h2{
 header {
     position: sticky;
     top: 0;
+    background: linear-gradient(to right, #8b5cf6, #6366f1);
 }
 
 .menu {
-    background: linear-gradient(to right, #8b5cf6, #6366f1);
     padding: 1rem;
     display: flex;
     align-items: center;
