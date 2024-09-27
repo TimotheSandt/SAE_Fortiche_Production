@@ -37,6 +37,7 @@ Page [page](https://timothesandt.github.io/SAE_Fortiche_Production/) - Maxime <b
 
 ### Répartition du travail - Questionnaire
 
-Questionnaire - <br>
-Zooning/Wireframe - <br>
+Questionnaire 1 - Timothé et Maxime aidé par le reste du groupe<br>
+Questionnaire 2 - <br>
+Zooning/Wireframe - Maxime<br>
 Style tiles - <br>
