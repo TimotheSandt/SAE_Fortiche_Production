@@ -2,8 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding-bottom: 60px; /* Espace pour le menu */
+    line-height: 1.5;
     /* background: linear-gradient(-45deg, #080118, #3b1988); */
     background: linear-gradient(-45deg, #04000e, #3b1988);
     animation: gradient 12s ease infinite;
