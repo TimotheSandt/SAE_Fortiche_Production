@@ -11,6 +11,19 @@ body {
     color: white;
 }
 
+@keyframes gradient{
+    0% {
+        background-position: 30% 50%;
+    }
+    50% {
+        background-position: 90% 50%;
+    }
+    100%{
+        background-position: 30% 50%;
+    }
+}
+
+
 h1{
     text-align: center;
 }
@@ -34,59 +47,6 @@ h2{
 .texte{
     margin: 0 1% 0 1%;
 }
-
-@keyframes gradient{
-    0% {
-        background-position: 30% 50%;
-    }
-    50% {
-        background-position: 90% 50%;
-    }
-    100%{
-        background-position: 30% 50%;
-    }
-}
-
-#fond {
-    position: sticky;
-    z-index: -2;
-    top: 0;
-    left: 0;
-    right: 0;
-
-}
-
-header {
-    position: sticky;
-    top: 0;
-    background: linear-gradient(to right, #8b5cf6, #6366f1);
-}
-
-.menu {
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.nav-links {
-    display: flex;
-    gap: 1.5rem;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.2s ease;
-    font-weight: bold;
-
-}
-
-.nav-links a:hover {
-    color: #e0e7ff;
-}
-
 
 
 /* Tableau */
