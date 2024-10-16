@@ -34,7 +34,7 @@ main {
 }
 
 .projet:hover {
-    transform: scale(1.02);
+    transform: scale(1.01) translateY(-5px);
 }
 
 
