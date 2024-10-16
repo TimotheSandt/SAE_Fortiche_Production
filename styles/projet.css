@@ -29,6 +29,12 @@ main {
     max-width: var(--max-width-project);
     height: var(--height-projet);
     overflow: hidden;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.projet:hover {
+    transform: scale(1.02);
 }
 
 
