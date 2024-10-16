@@ -5,6 +5,9 @@ body {
     line-height: 1.6;
 }
 
+main{
+    background-color: antiquewhite;
+}
 
 #fond {
     margin: 0;
