@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* overflow: hidden; */
+
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    height: var(--height-projet);
+    justify-content: space-between;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.container:hover {
+    transform: scale(1.01) translateY(-5px);
+}
+
+
+.container:nth-child(even){
+    flex-direction: row;
+}
+
+.container:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.container img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.container div {
+    margin: 1rem;
+    width: 50%;
+}
+
