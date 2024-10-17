@@ -1,45 +1,55 @@
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
+h1{
+text-align: center;
 
-.histoire{
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-
-.histoire-col{
-    flex-basis: 48%;
-    padding: 30px 2px;
-}
-
-.histoire-col img {
-    width:  100%;
-}
-.histoire-col h1{
-    padding-top: 0;
-}
-.histoire-col p{
-    padding: 15px 0 25px;
 }
 
 
-.text-box{
-    width: 99%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%); 
-    text-align: center;
+
+figcaption {
+  
+   padding: 2px;
+   text-align: center;
+ }
+
+.container {
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   /* overflow: hidden; */
+
+   background-color: #fff;
+   border-radius: 15px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+   height: var(--height-projet);
+   justify-content: space-between;
+   background-color: #ece7ee;
+   transition: transform 0.3s ease-in-out;
+   margin: 4rem;
 }
 
-.text-box h1{
-    font-size: 100px;
-    font-style: oblique;
+
+.container:hover {
+   transform: scale(1.01) translateY(-5px);
 }
 
+
+.container:nth-child(even){
+   flex-direction: row;
+}
+
+.container:nth-child(odd) {
+   flex-direction: row-reverse;
+}
+
+.container img {
+   width: 40%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 15px;
+}
+
+.container div {
+   margin: 1rem;
+   width: 50%;
+}
 
