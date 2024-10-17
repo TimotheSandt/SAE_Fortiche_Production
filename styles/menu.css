@@ -1,6 +1,18 @@
  * {
     --font-paragraphe: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
     --font-titre: "Tahoma", sans-serif;
+    
+    --font-size-h1: 57px;
+    --font-size-h2: 35px;
+    --font-size-h3: 30px;
+    --font-size-h4: 25px;
+    --font-size-p: 18px;
+
+    --couleur-beige: #B2AA8E;
+    --couleur-noir: #020202;
+    --couleur-bleu: #0D324D;
+    --couleur-violet: #7F5A83;
+    --couleur-lavande: #A188A6;
 }
 
 body {
