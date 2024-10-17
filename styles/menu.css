@@ -28,21 +28,25 @@ body {
 h1 {
     font-size: var(--font-size-h1);
     font-family: var(--font-titre);
+    src : url(../fonts/Tahoma.ttf);
 }
 
 h2 {
     font-size: var(--font-size-h2);
     font-family: var(--font-titre);
+    src : url(../fonts/Tahoma.ttf);
 }
 
 h3 {    
     font-size: var(--font-size-h3);
     font-family: var(--font-titre);
+    src : url(../fonts/Tahoma.ttf);
 }
 
 h4 {
     font-size: var(--font-size-h4);
     font-family: var(--font-titre);
+    src : url(../fonts/Tahoma.ttf);
 }
 
 main {
