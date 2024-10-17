@@ -1,7 +1,12 @@
+ * {
+    --font-paragraphe: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
+    --font-titre: "Tahoma", sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: var(--font-paragraphe); 
     line-height: 1.5;
     min-height: 100vh;
 }
