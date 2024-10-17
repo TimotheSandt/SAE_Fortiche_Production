@@ -36,7 +36,6 @@
 }
 
 .container div {
-    margin: 1rem;
-    width: 50%;
+    margin: 1rem 3rem;
+    text-align: justify;
 }
-
