@@ -33,7 +33,14 @@ section {
 
 #pages {
     background-color: #0000;
+}
 
+.lien_page {
+    text-decoration: none;
+    color: var(--couleur-noir);
+    padding: 1rem;
+    background-color: var(--couleur-beige);
+    border-radius: 15px;
 }
 
 #footer {
@@ -74,11 +81,22 @@ section {
     justify-content: space-between;
 }
 
+#adresse {
+    align-items: end;
+    text-align: end;
+    margin: 0;
+}
+
+#adresse p {
+    margin: 0;
+}
+
 .social-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 70%;
     gap: 1rem;
 }
 
