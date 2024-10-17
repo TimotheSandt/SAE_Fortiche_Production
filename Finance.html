@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <header>
         <nav id="menu" aria-label="Menu principal">
             
-            <a href="index.html" id="logo_links">
+            <a href="index.html" id="logo_links" alt="logo Fortiche Production">
                 <img id="logo" src="icone/logo.png">
             </a>
             <div class="nav-links">
@@ -237,37 +237,37 @@
     <footer>
         <p>Fait par Maxime Miguet</p>
     </footer>
-</body>
-
-<script>
-    const graphe = document.querySelector('.graphe');
-    const images = graphe.querySelectorAll('img');
-    const prevButton = document.querySelector('.nav-button.prev');
-    const nextButton = document.querySelector('.nav-button.next');
-    let currentIndex = 0;
-
-    function showImage(index) {
-        if (index < 0) {
-            currentIndex = images.length - 1;
-        } else if (index >= images.length) {
-            currentIndex = 0;
-        } else {
-            currentIndex = index;
+    
+    <script>
+        const graphe = document.querySelector('.graphe');
+        const images = graphe.querySelectorAll('img');
+        const prevButton = document.querySelector('.nav-button.prev');
+        const nextButton = document.querySelector('.nav-button.next');
+        let currentIndex = 0;
+        
+        function showImage(index) {
+            if (index < 0) {
+                currentIndex = images.length - 1;
+            } else if (index >= images.length) {
+                currentIndex = 0;
+            } else {
+                currentIndex = index;
+            }
+            const offset = -currentIndex * 100;
+            graphe.style.transform = `translateX(${offset}%)`;
         }
-        const offset = -currentIndex * 100;
-        graphe.style.transform = `translateX(${offset}%)`;
-    }
-
-    prevButton.addEventListener('click', () => {
-        showImage(currentIndex - 1);
-    });
-
-    nextButton.addEventListener('click', () => {
-        showImage(currentIndex + 1);
-    });
-
-    showImage(currentIndex);
-</script>
+        
+        prevButton.addEventListener('click', () => {
+            showImage(currentIndex - 1);
+        });
+        
+        nextButton.addEventListener('click', () => {
+            showImage(currentIndex + 1);
+        });
+        
+        showImage(currentIndex);
+    </script>
+</body>
 
 
 </html>
