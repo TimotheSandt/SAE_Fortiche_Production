@@ -1,35 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    /* background: linear-gradient(-45deg, #080118, #3b1988); */
-    background: linear-gradient(-45deg, #04000e, #3b1988);
-    animation: gradient 12s ease infinite;
-    background-size: 400%;
-    color: white;
-}
 
-@keyframes gradient{
-    0% {
-        background-position: 30% 50%;
-    }
-    50% {
-        background-position: 90% 50%;
-    }
-    100%{
-        background-position: 30% 50%;
-    }
-}
-
-
-h1{
-    text-align: center;
-}
-
-h2{
-    text-align: left;
-}
 
 .intro{
     background: linear-gradient(-45deg, #22114c, #250572);
@@ -45,6 +14,60 @@ h2{
 
 .texte{
     margin: 0 1% 0 1%;
+}
+
+
+
+/* Graphique */
+
+.graphe-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.graphe {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.graphe img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-button.prev {
+    left: 10px;
+}
+
+.nav-button.next {
+    right: 10px;
+}
+
+@media (max-width: 600px) {
+    .graphe-container {
+        max-width: 100%;
+    }
 }
 
 
