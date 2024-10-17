@@ -172,21 +172,7 @@ nav img{
           width: 100%;
       }
   
-      .text-box{
-          width: 99%;
-          color: #fff;
-          position: absolute;
-          top: 50%;
-          left:50%;
-          transform: translate(-50%,-50%); 
-          text-align: center;
-      
-      }
-      
-      .text-box h1{
-          font-size: 100px;
-          font-style: oblique;
-      }
+     
   
       /* FOOTER */
   .footer{
