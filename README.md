@@ -36,7 +36,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 Vérification ecoindex : [Détail ICI](https://www.ecoindex.fr/resultat/?id=8f88570f-83f4-4835-bbc2-f39ca8850932#score-details)
 <br>
 <img src="doc/ecoindex_accueil.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
-
+<br>
 
 ### Page histoire
 
@@ -49,6 +49,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 Vérification ecoindex : [Détail ICI](https://www.ecoindex.fr/resultat/?id=14b04543-147a-4432-915d-96ad9f26bf8f)
 <br>
 <img src="doc/ecoindex_histoire.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
+<br>
 
 ### Page projet
 
@@ -61,6 +62,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 Vérification ecoindex : [Détail ICI](https://www.ecoindex.fr/resultat/?id=c9c12fcc-bf2c-4036-800c-83db9c275909)
 <br>
 <img src="doc/ecoindex_projet.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
+<br>
 
 ### Page Finance
 
@@ -73,6 +75,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 Vérification ecoindex : [Détail ICI](https://www.ecoindex.fr/resultat/?id=bc02fcb0-c7f7-4f8a-84fc-fb0c3178d454)
 <br>
 <img src="doc/ecoindex_finance.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
+<br>
 
 ### Page à propos
 
@@ -85,15 +88,20 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 Vérification ecoindex : [Détail ICI](https://www.ecoindex.fr/resultat/?id=bf6665f7-6b28-46a1-a313-168706f3684f)
 <br>
 <img src="doc/ecoindex_a_propos.png" style="width=400px" alt="capture ecran sur ecoconcept pour tester l'eco-conception">
+<br>
 
 ## Répartition du travail 
 
+### Planification - Diagramme de GANTT
+
+Timothe Sandt <br>
+
 ### Rapport
 
-Timothe SANDT
-Maxime Miguet
-Remi Sandrone
-Rokhaya Diallo
+Timothe Sandt <br>
+Maxime Miguet <br>
+Remi Sandrone <br>
+Rokhaya Diallo <br>
 
 ### Questionnaire
 
@@ -103,8 +111,6 @@ Zooning/Wireframe - Maxime - Rémi<br>
 Style tiles - Maxime<br>
 
 
-
 ## Contributeurs
-
 
 ![capture d'écran de sur la contribution des membres du projet](doc/contributeurs.png)
