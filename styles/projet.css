@@ -1,16 +1,8 @@
 * {
     --font-size-project-name: 32px;
     --height-projet: 300px;
-    --max-width-main: 1200px;
-    --max-width-project: 800px;
 }
 
-main {
-    max-width: var(--max-width-main);
-    margin: 0 auto;
-    padding: 2rem;
-    background-color: aliceblue;
-}
 
 .projets-container {
     display: flex;
@@ -21,7 +13,6 @@ main {
 
 .projet {    
     width: 70%;
-    max-width: var(--max-width-project);
     /* overflow: hidden; */
 
     background-color: #fff;
