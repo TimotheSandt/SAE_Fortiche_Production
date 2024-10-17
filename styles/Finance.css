@@ -1,13 +1,16 @@
 
 
 .intro{
-    margin: 0 15% 0 15%;
-    padding: 0 15px 0 15px;
+    margin: 0 15% 75px 15%;
+    padding: 0 15px 15px 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .tab{
-    margin: 0 15% 0 15%;
-    padding: 0 15px 0 15px;
+    margin: 0;
+    padding: 0 ;
 }
 
 .texte{
@@ -24,6 +27,9 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    background-color: #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .graphe {
@@ -63,6 +69,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
+    max-height: 50px;
     padding: 10px 15px;
     cursor: pointer;
     font-size: 18px;
@@ -81,60 +88,27 @@
     right: 10px;
 }
 
-@media (max-width: 600px) {
-    .graphe-container {
-        max-width: 100%;
-    }
-}
+
 
 
 /* Tableau */
-
-/* table.tableau{
-    width:40%;
-    border:solid  5px;
-    border-color: rgb(76, 3, 99);
-    border-collapse:collapse;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-table.tableau td {
-    border:solid #6366f1 2px;
-}
-
-table.tableau caption{
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:5px;
-    color:rgb(77, 0, 128);
-}
-
-table.tableau thead{
-    color:white;
-    background-color:#6366f1;
-}
-
-table.tableau thead th{
-    border:solid rgb(77, 0, 128) 2px;
-} */
 
 .tab {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 5px;
+    margin: 50px;
 }
-
 
 .tableau {
     background-color: #fff;
-    display: inline;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
+    max-width: 600px;
+    margin: 25px;
+    
 }
 
 table {
@@ -149,7 +123,7 @@ th, td {
 }
 
 th {
-    background-color: #2c3e50;
+    background-color: var(--couleur-bleu);
     color: #fff;
 }
 

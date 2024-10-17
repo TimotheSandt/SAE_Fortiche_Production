@@ -9,8 +9,9 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     height: var(--height-projet);
     justify-content: space-between;
-
+    background-color: #ece7ee;
     transition: transform 0.3s ease-in-out;
+    margin: 4rem;
 }
 
 
@@ -31,7 +32,7 @@
     width: 40%;
     height: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .container div {
