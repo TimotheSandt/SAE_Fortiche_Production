@@ -241,28 +241,8 @@ nav img{
       }
   
   
-      .im {
-          display: flex; 
-          flex-direction: row; 
-          align-items: center; 
-          gap: 20px; 
-      }
       
-      .im img {
-          width: 48%; 
-      }
-      
-      .im .text {
-          flex-grow: 1; 
-      }
-      
-      .im h1 {
-          padding-top: 0;
-      }
-      
-      .im p {
-          padding: 15px 0 25px;
-      }
+
       
       
       
