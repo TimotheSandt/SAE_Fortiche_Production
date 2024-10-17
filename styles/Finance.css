@@ -69,6 +69,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
+    max-height: 50px;
     padding: 10px 15px;
     cursor: pointer;
     font-size: 18px;
@@ -87,11 +88,7 @@
     right: 10px;
 }
 
-@media (max-width: 600px) {
-    .graphe-container {
-        max-width: 100%;
-    }
-}
+
 
 
 /* Tableau */
