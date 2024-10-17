@@ -13,6 +13,7 @@
     --couleur-bleu: #0D324D;
     --couleur-violet: #7F5A83;
     --couleur-lavande: #A188A6;
+    --couleur-section: #ECE7EE;
 }
 
 body {
@@ -49,6 +50,7 @@ main {
     background: linear-gradient(45deg, #ab92b0, #dec6e2);
     animation: gradient 7s ease infinite;
     background-size: 400%;
+    min-height: 90vh;
 }
 
 @keyframes gradient{
