@@ -89,6 +89,7 @@ header {
     background-size: cover; 
 }
 
+
 #menu {
     /* background: linear-gradient(to right, #154c73, #0D324D); */
     
@@ -128,8 +129,16 @@ header {
     font-size: larger;
 }
 
+.nav-links a.dessus{
+    color: var(--couleur-beige);
+}
+
 .nav-links a:hover {
     color: #e0e7ff;
+}
+
+.dessus {
+    color: black;
 }
 
 
@@ -147,6 +156,7 @@ header {
         gap: 0.5rem;
     }
 }
+
 
 
 
