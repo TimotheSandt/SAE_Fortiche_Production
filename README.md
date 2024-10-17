@@ -107,4 +107,4 @@ Style tiles - Maxime<br>
 ## Contributeurs
 
 
-![capture d'écran de sur la contribution des membres du projet](doc/contributeurs.png.png)
+![capture d'écran de sur la contribution des membres du projet](doc/contributeurs.png)
