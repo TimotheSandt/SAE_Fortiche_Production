@@ -1,3 +1,8 @@
+header {
+    background-color: var(--couleur-violet);
+    background-image: none;
+}
+
 .content {
     padding-bottom: 60px; /* Espace pour le menu */
     /* background: linear-gradient(-45deg, #080118, #3b1988); */
@@ -62,6 +67,13 @@ section {
     object-fit: cover;
 }
 
+.lien_page {
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--couleur-noir);
+    background-color: var(--couleur-beige);
+    border-radius: 15px;
+}
 
 #footer {
     background-color: var(--couleur-section);
