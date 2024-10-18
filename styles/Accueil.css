@@ -1,7 +1,7 @@
 header {
     background-color: var(--couleur-violet);
     background-image: none;
-    transform: scaleY(1.01);
+    transform: scaleY(1.03);
 }
 
 .content {
