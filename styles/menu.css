@@ -28,21 +28,25 @@ body {
 h1 {
     font-size: var(--font-size-h1);
     font-family: var(--font-titre);
+    src : url(../fonts/Tahoma.ttf);
 }
 
 h2 {
     font-size: var(--font-size-h2);
     font-family: var(--font-titre);
+    src : url(../fonts/Tahoma.ttf);
 }
 
 h3 {    
     font-size: var(--font-size-h3);
     font-family: var(--font-titre);
+    src : url(../fonts/Tahoma.ttf);
 }
 
 h4 {
     font-size: var(--font-size-h4);
     font-family: var(--font-titre);
+    src : url(../fonts/Tahoma.ttf);
 }
 
 main {
@@ -71,11 +75,11 @@ main {
     top: 0;
     z-index: -2;
     width: 100%;
+    max-height: 80vh;
 }
 
 #image_fond img {
     width: 100%;
-    max-height: 70vh;
     object-fit: cover;
 }
 
@@ -84,10 +88,13 @@ header {
     top: 0;
     margin: 0;
     z-index: 10;
-    background-image: url("../images/FORTICHE_Banniere-1.jpg");
+    background-image: url('../images/FORTICHE_Banniere-1.jpg');
+    /* background-color: var(--couleur-violet); */
     background-position: center;
     background-size: cover; 
 }
+
+
 
 
 #menu {
